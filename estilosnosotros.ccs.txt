@@ -20,8 +20,6 @@ height auto;
 background-color: # 
 }
 
-
-
 #columna_principal {
 float: left;
 width: 70%;
