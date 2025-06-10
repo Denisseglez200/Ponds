@@ -1,0 +1,23 @@
+html {
+color de fondo: #a2999 ;
+familia de fuentes: "Open Sans", sans-serif;}
+h1 {
+tamaño de fuente: 60px;
+alineación de texto:centro;
+margen: 0;
+relleno: 20px;
+} sombra de texto: 3px 3px 1px negro;
+
+pag {
+color:#0c0b0b ;
+ancho: 500;
+tamaño de fuente: 16px;
+espaciado entre letras: 1px; }
+
+imagen{
+pantalla: bloque;
+margen: 0 auto; }
+
+cuerpo{
+ancho: 600px;
+margen: 0 auto;
