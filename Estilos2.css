@@ -1,23 +1,89 @@
-html {
-color de fondo: #a2999 ;
-familia de fuentes: "Open Sans", sans-serif;}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff9fb;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.imagen-derecha {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fce4ec;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #c2185b;
+    font-weight: bold;
+    padding: 6px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #c2185b;
+    color: white;
+    border-radius: 4px;
+}
+
 h1 {
-tamaño de fuente: 60px;
-alineación de texto:centro;
-margen: 0;
-relleno: 20px;
-} sombra de texto: 3px 3px 1px negro;
+    text-align: center;
+    color: #d81b60;
+    font-size: 36px;
+    margin-top: 40px;
+}
 
-pag {
-color:#0c0b0b ;
-ancho: 500;
-tamaño de fuente: 16px;
-espaciado entre letras: 1px; }
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px auto;
+}
 
-imagen{
-pantalla: bloque;
-margen: 0 auto; }
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #c2185b;
+    border-radius: 8px;
+}
 
-cuerpo{
-ancho: 600px;
-margen: 0 auto;
+address {
+    text-align: center;
+    font-style: normal;
+    color: #999;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #f06292;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2185b;
+}
