@@ -1,26 +1,92 @@
-html{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-body{
- background-color: ##ff9933 ;
+h1 {
+  background-color: #e91e63;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
 }
-div.ficha{
-   width:200px;
-   height: 120px;
-   float: left;
-   margin: 15px;
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f06292;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-ul#menu{
-   margin:1px;
-   padding:1px;
-   list-style-type:none
-}
+
 #menu li {
- background color: cyan;
- border: lightblue 3px solid;
- margin: 1px;
- float: left;
+  margin: 0;
 }
+
+#menu li a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#menu li a:hover {
+  background-color: #c2185b;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #880e4f;
+  margin-top: 30px;
+}
+
+.ficha {
+  width: 200px;
+  margin: 15px;
+  float: left;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.ficha:hover {
+  transform: scale(1.05);
+}
+
+.ficha img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ficha p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+div:last-of-type {
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 15px;
+  margin-top: 40px;
+  clear: both;
+  font-size: 14px;
+}
+
+p[style*="clear:both"] {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
